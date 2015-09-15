@@ -1,0 +1,12 @@
+# Ignore Drupals local file system
+privat3interal
+tmp
+
+# Ignore configuration files that may contain sensitive information.
+www/sites/*/settings*.php
+www/sites/*/settings*.php*
+www/sites/*/*settings*.php*
+
+# Ignore paths that contain user-generated content.
+www/sites/*/files
+www/sites/*/private
