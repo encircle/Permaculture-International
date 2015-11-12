@@ -225,7 +225,11 @@ footer{text-align:center;}
 /* View Styles */
 .profile-view > div {width:100%;}
 .profile-view > .views-field-field-full-name {padding-top:0;height:40px;}
-.profile-view > .views-field-field-role {padding-top:5px;min-height:70px;}
+.profile-view > .views-field-field-role {
+    padding-top: 5px;
+    min-height: 63px;
+    display: block;
+}
 
 .profile-view > .views-field-field-profile-image {padding-top:0;min-height:90px;}
 .profile-view > .views-field > .views-field-body > .field-content{min-height:300px;}
