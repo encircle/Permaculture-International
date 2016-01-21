@@ -225,7 +225,7 @@ footer{text-align:center;}
 /* View Styles */
 .profile-view > div {width:100%;}
 .profile-view > .views-field-field-full-name {padding-top:0;height:40px;}
-.profile-view > .views-field-field-role {
+.profile-view > .views-field-field-role,.profile-view >  .views-field-field-organisation{
     padding-top: 5px;
     min-height: 63px;
     display: block;
